@@ -1,9 +1,9 @@
 function clock()    {
-    var dateTime = new Date();
-    var hrs = dateTime.getHours();
-    var min = dateTime.getMinutes();
-    var sec = dateTime.getSeconds();
-    var mil = dateTime.getMilliseconds();
+    const dateTime = new Date();
+    const hrs = dateTime.getHours();
+    const min = dateTime.getMinutes();
+    const sec = dateTime.getSeconds();
+    const mil = dateTime.getMilliseconds();
 
     document.getElementById("hours").innerHTML = hrs;
     document.getElementById("minutes").innerHTML = min;
@@ -12,14 +12,4 @@ function clock()    {
 }
 setInterval(clock, 10);
 
-function calendar() {
-    var dateTime = new Date();
-    var year = dateTime.getYear();
-    var month = dateTime.getMonth();
-    var day = dateTime.getDay();
-
-    document.getElementById("year").innerHTML = year;
-    document.getElementById("month").innerHTML = month;
-    document.getElementById("day").innerHTML = day;
-}
-setInterval(calendar, 10);
+// Create a day/month/year

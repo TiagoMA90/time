@@ -35,8 +35,8 @@ body    {
     color: #ffffff;
     font-weight: bold;
     position: absolute;
-    top: 65%;
-    right: 65%;
+    top: 60%;
+    right: 50%;
     transform: translate(50%, -50%);
     font-size: 75px;
 }
