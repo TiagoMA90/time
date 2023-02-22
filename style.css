@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap');
+
+body    {
+    margin: 0%;
+    padding: 0%;
+    background: black;
+}
+#time, #date  {
+    font-family: 'Tourney', cursive;
+    padding: 30px;
+    color: #c50000;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    font-size: 100px;
+}
+
+#miliseconds    {
+    font-family: 'Tourney', cursive;
+    padding: 30px;
+    color: #c50000;
+    font-weight: bold;
+    position: absolute;
+    top: 45%;
+    right: 38%;
+    transform: translate(50%, -50%);
+    font-size: 20px;
+}
+
+#date    {
+    font-family: 'Tourney', cursive;
+    padding: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    top: 65%;
+    right: 65%;
+    transform: translate(50%, -50%);
+    font-size: 75px;
+}
