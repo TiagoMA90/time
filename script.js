@@ -1,3 +1,4 @@
+// Clock Function
 function clock()    {
     const time = new Date();
     const hrs = time.getHours();
@@ -12,7 +13,7 @@ function clock()    {
 }
 setInterval(clock, 10);
 
-
+// Calendar Function
 function calendar()    {
     const date = new Date();
     const year = date.getFullYear();

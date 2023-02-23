@@ -40,3 +40,96 @@ body    {
     transform: translate(50%, -50%);
     font-size: 50px;
 }
+
+@media screen and (max-width: 1085px) {
+    #time   {
+        font-size: 80px;
+    }
+    
+    #miliseconds    {
+        font-size: 20px;
+    }
+    
+    #date    {
+        top: 58%;
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    #time   {
+        font-size: 60px;
+    }
+    
+    #miliseconds    {
+        font-size: 20px;
+    }
+    
+    #date    {
+        top: 55%;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #time   {
+        font-size: 40px;
+    }
+    
+    #miliseconds    {
+        font-size: 20px;
+    }
+    
+    #date    {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #time   {
+        padding: 5px;
+        font-size: 30px;
+    }
+    
+    #miliseconds    {
+        top: 48%;
+        right: 40%;
+        font-size: 10px;
+    }
+    
+    #date    {
+        padding: 5px;
+        top: 53%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    #time   {
+        padding: 1px;
+        font-size: 25px;
+    }
+    
+    #miliseconds    {
+        font-size: 5px;
+    }
+    
+    #date    {
+        padding: 1px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 245px) {
+    #time   {
+        font-size: 15px;
+    }
+    
+    #miliseconds    {
+        font-size: 5px;
+    }
+    
+    #date    {
+        font-size: 15px;
+    }
+}
