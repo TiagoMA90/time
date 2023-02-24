@@ -210,6 +210,22 @@ body    {
     }
 }
 
+@media screen and (max-width: 730px) {
+    #time   {
+        font-size: 40px;
+    }
+    
+    #miliseconds    {
+        top: 46%;
+        right: 32%;
+        font-size: 15px;
+    }
+    
+    #date    {
+        font-size: 40px;
+    }
+}
+
 @media screen and (max-width: 540px) {
     #time   {
         padding: 5px;
