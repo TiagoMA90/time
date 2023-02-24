@@ -24,7 +24,7 @@ body    {
     font-weight: bold;
     position: absolute;
     top: 45%;
-    right: 38%;
+    right: 30%;
     transform: translate(50%, -50%);
     font-size: 20px;
 }
@@ -47,12 +47,48 @@ body    {
     }
     
     #miliseconds    {
+        top: 48%;
+        right: 40%;
         font-size: 20px;
     }
     
     #date    {
         top: 58%;
-        font-size: 50px;
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #time   {
+        font-size: 80px;
+    }
+    
+    #miliseconds    {
+        top: 45%;
+        right: 30%;
+        font-size: 20px;
+    }
+    
+    #date    {
+        top: 65%;
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    #time   {
+        font-size: 60px;
+    }
+    
+    #miliseconds    {
+        top: 48%;
+        right: 32%;
+        font-size: 20px;
+    }
+    
+    #date    {
+        top: 55%;
+        font-size: 60px;
     }
 }
 
@@ -62,60 +98,120 @@ body    {
     }
     
     #miliseconds    {
+        top: 48%;
+        right: 30%;
         font-size: 20px;
     }
     
     #date    {
         top: 55%;
-        font-size: 40px;
+        font-size: 60px;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     #time   {
         font-size: 40px;
-    }
-    
-    #miliseconds    {
-        font-size: 20px;
-    }
-    
-    #date    {
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 470px) {
-    #time   {
-        padding: 5px;
-        font-size: 30px;
     }
     
     #miliseconds    {
         top: 48%;
-        right: 40%;
+        right: 35%;
+        font-size: 20px;
+    }
+    
+    #date    {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #time   {
+        padding: 5px;
+        font-size: 35px;
+    }
+    
+    #miliseconds    {
+        top: 48%;
+        right: 32%;
         font-size: 10px;
     }
     
     #date    {
         padding: 5px;
-        top: 53%;
-        font-size: 20px;
+        top: 55%;
+        font-size: 30px;
     }
 }
 
-@media screen and (max-width: 310px) {
+@media screen and (max-width: 412px) {
+    #time   {
+        padding: 5px;
+        font-size: 35px;
+    }
+    
+    #miliseconds    {
+        top: 48%;
+        right: 28%;
+        font-size: 10px;
+    }
+    
+    #date    {
+        padding: 5px;
+        top: 55%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    #time   {
+        padding: 5px;
+        font-size: 35px;
+    }
+    
+    #miliseconds    {
+        top: 48%;
+        right: 28%;
+        font-size: 10px;
+    }
+    
+    #date    {
+        padding: 5px;
+        top: 55%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
     #time   {
         padding: 1px;
         font-size: 25px;
     }
     
     #miliseconds    {
+        top: 48%;
+        right: 32%;
         font-size: 5px;
     }
     
     #date    {
         padding: 1px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #time   {
+        font-size: 25px;
+    }
+    
+    #miliseconds    {
+        top: 47%;
+        right: 30%;
+        font-size: 10px;
+    }
+    
+    #date    {
         font-size: 20px;
     }
 }
