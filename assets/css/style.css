@@ -17,8 +17,7 @@ body    {
 }
 
 #miliseconds    {
-    transform: translate(50%, -50%);
-    font-size: 30px;
+    font-size: clamp(1rem, 2vw + 1rem, 2.5rem);
 }
 
 #date    {
@@ -45,14 +44,67 @@ body    {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1085px) {
     #time   {
         top: 50%;
-        font-size: clamp(1rem, 2vw + 1rem, 1rem);
+        font-size: clamp(2rem, 2vw + 1rem, 2.5rem);
+    }
+
+    #miliseconds    {
+        font-size: clamp(0.5rem, 0.5vw + 0.5rem, 0.5rem);
     }
     
     #date    {
-        top: 52%;
+        top: 55%;
+        font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    #time   {
+        top: 50%;
+        font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
+    }
+
+    #miliseconds    {
+        font-size: clamp(0.5rem, 0.5vw + 0.5rem, 0.5rem);
+    }
+    
+    #date    {
+        top: 55%;
+        font-size: clamp(1rem, 2vw + 1rem, 2.5rem);
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #time   {
+        top: 50%;
+        font-size: clamp(1.2rem, 2vw + 1rem, 1.2rem);
+    }
+
+    #miliseconds    {
+        font-size: clamp(0.5rem, 0.5vw + 0.5rem, 0.5rem);
+    }
+    
+    #date    {
+        top: 53%;
         font-size: clamp(1rem, 2vw + 1rem, 1rem);
+    }
+}
+
+@media screen and (max-width: 285px) {
+    #time   {
+        top: 50%;
+        font-size: clamp(0.8rem, 1vw + 1rem, 0.8rem);
+    }
+
+    #miliseconds    {
+        font-size: clamp(0.5rem, 0.5vw + 0.5rem, 0.5rem);
+    }
+    
+    #date    {
+        top: 53%;
+        font-size: clamp(0.7rem, 2vw + 1rem, 0.7rem);
     }
 }

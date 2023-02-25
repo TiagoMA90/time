@@ -3,7 +3,7 @@ function clock()    {
     const hrs = String(new Date().getHours()).padStart(2, '0');
     const min = String(new Date().getMinutes()).padStart(2, '0');
     const sec = String(new Date().getSeconds()).padStart(2, '0');
-    //const mil = String(new Date().getMilliseconds()).padStart(3, '0');
+    const mil = String(new Date().getMilliseconds()).padStart(3, '0');
     let phase = document.getElementById('phase');
 
     // Phases of the Day
