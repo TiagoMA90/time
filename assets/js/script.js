@@ -1,10 +1,9 @@
 // Clock Function
 function clock()    {
-    const time = new Date();
-    const hrs = time.getHours();
-    const min = time.getMinutes();
-    const sec = time.getSeconds();
-    const mil = time.getMilliseconds();
+    const hrs = String(new Date().getHours()).padStart(2, '0');
+    const min = String(new Date().getMinutes()).padStart(2, '0');
+    const sec = String(new Date().getSeconds()).padStart(2, '0');
+    //const mil = String(new Date().getMilliseconds()).padStart(3, '0');
     let phase = document.getElementById('phase');
 
     if (hrs >= 6 && hrs <= 10) {
