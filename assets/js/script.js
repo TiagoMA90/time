@@ -6,6 +6,7 @@ function clock()    {
     //const mil = String(new Date().getMilliseconds()).padStart(3, '0');
     let phase = document.getElementById('phase');
 
+    // Phases of the Day
     if (hrs >= 6 && hrs <= 10) {
         phase.innerHTML = "🌤";
     } else if (hrs >= 10 && hrs <= 18) {
@@ -18,7 +19,7 @@ function clock()    {
         phase.innerHTML = "☽";
     }
 
-
+    
     document.getElementById("hours").innerHTML = hrs;
     document.getElementById("minutes").innerHTML = min;
     document.getElementById("seconds").innerHTML = sec;
