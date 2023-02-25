@@ -5,6 +5,20 @@ function clock()    {
     const min = time.getMinutes();
     const sec = time.getSeconds();
     const mil = time.getMilliseconds();
+    let phase = document.getElementById('phase');
+
+    if (hrs >= 6 && hrs <= 10) {
+        phase.innerHTML = "🌤";
+    } else if (hrs >= 10 && hrs <= 18) {
+        phase.innerHTML = "☀";
+    } else if (hrs >= 18 && hrs <= 21) {
+        phase.innerHTML = "☁︎";
+    } else if (hrs >= 21 && hrs <= 1) {
+        phase.innerHTML = "☾";
+    } else {
+        phase.innerHTML = "☽";
+    }
+
 
     document.getElementById("hours").innerHTML = hrs;
     document.getElementById("minutes").innerHTML = min;
