@@ -7,17 +7,14 @@ body    {
 }
 #time   {
     font-family: 'Tourney', cursive;
-    padding: 30px;
     color: #c50000;
     font-weight: bold;
     position: absolute;
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
-    font-size: 100px;
+    font-size: clamp(2rem, 4vw + 1rem, 5.5rem);
 }
-
-
 
 #miliseconds    {
     transform: translate(50%, -50%);
@@ -26,269 +23,36 @@ body    {
 
 #date    {
     font-family: 'Tourney', cursive;
-    padding: 30px;
     color: #ffffff;
     font-weight: bold;
     position: absolute;
     top: 60%;
     right: 50%;
     transform: translate(50%, -50%);
-    font-size: 50px;
+    font-size: clamp(2rem, 4vw + 1rem, 5.5rem);
 }
+
 
 @media screen and (max-width: 1085px) {
     #time   {
-        font-size: 80px;
-    }
-    
-    #miliseconds    {
-        font-size: 20px;
+        top: 50%;
+        font-size: clamp(1rem, 2vw + 1rem, 2.5rem);
     }
     
     #date    {
-        top: 58%;
-        font-size: 60px;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-    #time   {
-        font-size: 80px;
-    }
-    
-    #miliseconds    {
-        font-size: 20px;
-    }
-    
-    #date    {
-        top: 60%;
-        font-size: 60px;
-    }
-}
-
-@media screen and (max-width: 1090px) {
-    #time   {
-        font-size: 80px;
-    }
-    
-    #miliseconds    {
-        font-size: 20px;
-    }
-    
-    #date    {
-        top: 60%;
-        font-size: 60px;
-    }
-}
-
-
-@media screen and (max-width: 1025px) {
-    #time   {
-        font-size: 80px;
-    }
-    
-    #miliseconds    {
-        font-size: 20px;
-    }
-    
-    #date    {
-        top: 58%;
-        font-size: 60px;
-    }
-}
-
-@media screen and (max-width: 930px) {
-    #time   {
-        font-size: 60px;
-    }
-    
-    #miliseconds    {
-        font-size: 20px;
-    }
-    
-    #date    {
-        top: 56%;
-        font-size: 60px;
-    }
-}
-
-@media screen and (max-width: 915px) {
-    #time   {
-        font-size: 60px;
-    }
-    
-    #miliseconds    {
-        font-size: 20px;
-    }
-    
-    #date    {
-        top: 56%;
-        font-size: 60px;
-    }
-}
-
-@media screen and (max-width: 895px) {
-    #time   {
-        font-size: 60px;
-    }
-    
-    #miliseconds    {
-        font-size: 20px;
-    }
-    
-    #date    {
-        top: 60%;
-        font-size: 50px;
-    }
-}
-
-@media screen and (max-width: 890px) {
-    #time   {
-        font-size: 60px;
-    }
-    
-    #miliseconds    {
-        font-size: 20px;
-    }
-    
-    #date    {
-        top: 58%;
-        font-size: 60px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    #time   {
-        font-size: 40px;
-    }
-    
-    #miliseconds    {
-        font-size: 20px;
-    }
-    
-    #date    {
-        font-size: 40px;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    #time   {
-        font-size: 40px;
-    }
-    
-    #miliseconds    {
-        font-size: 20px;
-    }
-    
-    #date    {
-        font-size: 40px;
-    }
-}
-
-@media screen and (max-width: 730px) {
-    #time   {
-        font-size: 40px;
-    }
-    
-    #miliseconds    {
-        font-size: 15px;
-    }
-    
-    #date    {
-        font-size: 40px;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    #time   {
-        padding: 5px;
-        font-size: 35px;
-    }
-    
-    #miliseconds    {
-        font-size: 10px;
-    }
-    
-    #date    {
-        padding: 5px;
         top: 55%;
-        font-size: 30px;
+        font-size: clamp(1rem, 2vw + 1rem, 2.5rem);
     }
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 500px) {
     #time   {
-        padding: 5px;
-        font-size: 35px;
-    }
-    
-    #miliseconds    {
-        font-size: 10px;
+        top: 50%;
+        font-size: clamp(1rem, 2vw + 1rem, 1rem);
     }
     
     #date    {
-        padding: 5px;
-        top: 55%;
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 412px) {
-    #time   {
-        padding: 5px;
-        font-size: 35px;
-    }
-    
-    #miliseconds    {
-        font-size: 10px;
-    }
-    
-    #date    {
-        padding: 5px;
-        top: 55%;
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    #time   {
-        padding: 1px;
-        font-size: 30px;
-    }
-    
-    #miliseconds    {
-        font-size: 5px;
-    }
-    
-    #date    {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 280px) {
-    #time   {
-        font-size: 25px;
-    }
-    
-    #miliseconds    {
-        font-size: 10px;
-    }
-    
-    #date    {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 245px) {
-    #time   {
-        font-size: 25px;
-    }
-    
-    #miliseconds    {
-        font-size: 5px;
-    }
-    
-    #date    {
-        font-size: 15px;
+        top: 52%;
+        font-size: clamp(1rem, 2vw + 1rem, 1rem);
     }
 }
