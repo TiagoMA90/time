@@ -7,12 +7,8 @@ function clock()    {
     let phase = document.getElementById('phase');
 
     // Phases of the Day
-    if (hrs >= 6 && hrs <= 9) {
-        phase.innerHTML = "🌤";
-    } else if (hrs >= 9 && hrs <= 18) {
+    if (hrs >= 8 && hrs <= 20) {
         phase.innerHTML = "<i class='bx bx-sun bx-tada' ></i>";
-    } else if (hrs >= 18 && hrs <= 20) {
-        phase.innerHTML = "🌤";
     } else {
         phase.innerHTML = "<i class='bx bx-moon bx-flashing' ></i>";
     }
