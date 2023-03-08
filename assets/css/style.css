@@ -27,10 +27,6 @@ body    {
     right: 50%;
     transform: translate(50%, -50%);
     font-size: clamp(2rem, 4vw + 1rem, 5.5rem);
-
-    display: grid;
-    grid-template-columns: 1fr 25px;
-    padding-bottom: 100px;
 }
 
 #miliseconds    {
@@ -72,7 +68,7 @@ body    {
     }
     
     #date    {
-        top: 51%;
+        top: 55%;
         font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
     }
 }
@@ -89,7 +85,7 @@ body    {
     }
     
     #date    {
-        top: 51%;
+        top: 55%;
         font-size: clamp(1rem, 2vw + 1rem, 2.5rem);
     }
 }
@@ -105,7 +101,7 @@ body    {
     }
     
     #date    {
-        top: 51%;
+        top: 55%;
         font-size: clamp(1rem, 2vw + 1rem, 1rem);
     }
 }
@@ -113,7 +109,7 @@ body    {
 @media screen and (max-width: 285px) {
     #time   {
         top: 50%;
-        font-size: clamp(0.8rem, 1vw + 1rem, 0.8rem);
+        font-size: clamp(1.1rem, 1vw + 1rem, 1.1rem);
     }
 
     #miliseconds    {
@@ -121,7 +117,7 @@ body    {
     }
     
     #date    {
-        top: 51%;
-        font-size: clamp(0.7rem, 2vw + 1rem, 0.7rem);
+        top: 55%;
+        font-size: clamp(1rem, 2vw + 1rem, 0.7rem);
     }
 }
