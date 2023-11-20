@@ -26,6 +26,10 @@ html, body {
     font-size: clamp(2rem, 4vw + 1rem, 5.5rem);
   }
 
+  #seconds {
+    font-size: 2rem;
+  }
+
   #miliseconds {
     font-size: clamp(1rem, 2vw + 1rem, 2.5rem);
   }
