@@ -17,14 +17,14 @@ The webpage for this game was tested for various devices, making use of both Dev
 It was adapted accordingly to Desktops, Laptops and Mobile devices under CSS Media queries.
 - Responsiveness from [Bytes](https://ui.dev/amiresponsive?url=https://tiagoma90.github.io/rock-paper-scissors/)
 
-# Notes for self(Add feautures)
-- Tick sound, everytime a minutes passes by. Another tick sound an hours passes.
+# Notes for self (Add feautures)
+- Tick sound, everytime a minutes passes by. Another tick sound an hours passes by.
 
 # Technologies
 ## Languages
 The website was written under HTML5, CSS3 & JS(ES6).
 - HTML5 - Structure of the page
-- CSS3 - Style of the page
+- Bootstrap - CSS Framework to style of the page
 - JSES6 - Logic and interactivity of the page
 
 Other forms of development as follows:
