@@ -14,7 +14,7 @@ function clock()    {
     } else if (hrs >= 20 && hrs <= 24) {
         phase.innerHTML = "<i class='fa-regular fa-moon'></i>";
     } else if (hrs >= 1 && hrs <= 6) {
-        phase.innerHTML = "<i class='bi bi-moon-stars></i>"
+        phase.innerHTML = "<i class='fa-regular fa-star'></i>"
     } else if (hrs >= 6 && hrs <= 8) {
         phase.innerHTML = "<i class='bi bi-sunrise'></i>";
     }
