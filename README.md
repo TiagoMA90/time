@@ -4,7 +4,7 @@ The 'Clock' website is live clock that documents the Time(/Hours/Minutes/Seconds
 Visitors of this website will find the time in the works
 
 # Live Project
-The live version can be found [here](https://tiagoma90.github.io/clock/)
+The live version can be found [here](https://tiagoma90.github.io/time/)
 
 <img src="assets/screenshots/bytesdev.png" alt="Time">
 
@@ -55,7 +55,7 @@ The website was deployed via Github
 - Navigate to "Pages" from the left-hand bar.
 - From here the "Source" should be set to "Deploy from branch".
 - On "Branch" select "main" and save.
-- The website was deployed via Github and the live website can be found [here](https://tiagoma90.github.io/clock/).
+- The website was deployed via Github and the live website can be found [here](https://tiagoma90.github.io/time/).
 
 ## Fonts:
 - The Fonts displayed in this website were imported from [Google Fonts](https://fonts.google.com/specimen/Tourney?query=tourney)
