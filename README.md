@@ -1,24 +1,29 @@
 # Live Clock
-The 'Clock' website is live clock that documents the Time(/Hours/Minutes/Seconds/Miliseconds) & Date(Day(Month/Year)).
+The 'Clock' app is live clock that documents the Time(/Hours/Minutes/Seconds/Miliseconds) & Date(Day(Month/Year)).
 
-Visitors of this website will find the time in the works
+Visitors of this website will find the time.
 
 # Live Project
 The live version can be found [here](https://tiagoma90.github.io/time/)
 
-<img src="assets/screenshots/bytesdev.png" alt="Time">
+<img src="./images/bytesDevTime.png" alt="Time">
 
-# Development Process (UPDATE)
+## Purpose of the website.
+- To allow users to use the check the time, date, month and day.
+- To allow users to to check the time, under any timezone.
 
-# Testing (UPDATE)
+# Testing
+Testing has been performed for its Performance, Accessibility, Best Practices and SEO.
+- With overall reviews for desktops & mobiles on 99%, under Chromes icognito mode.
+
+<img src="./images/lighthouse.png" alt="Lighthouse">
 
 # Responsiveness 
 The webpage for this game was tested for various devices, making use of both DevTools "Toggle Device Toolbar (Ctrl + Shift + M") and Bytes.
 It was adapted accordingly to Desktops, Laptops and Mobile devices under CSS Media queries.
-- Responsiveness from [Bytes](https://ui.dev/amiresponsive?url=https://tiagoma90.github.io/rock-paper-scissors/)
 
-# Notes for self (Add feautures)
-- Tick sound, everytime a minutes passes by. Another tick sound an hours passes by.
+# Notes for self (!Add feautures)
+- Tick sound, everytime a minutes passes by. Aad another tick an hour passes by.
 
 # Technologies
 ## Languages
