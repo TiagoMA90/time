@@ -6,7 +6,7 @@ Visitors of this website will find the time.
 # Live Project
 The live version can be found [here](https://tiagoma90.github.io/time/)
 
-<img src="./images/bytesDevTime.png" alt="Time">
+<img src="assets/screenshots/bytesDevTime.png" alt="Time">
 
 ## Purpose of the website.
 - To allow users to use the check the time, date, month and day.
@@ -16,7 +16,7 @@ The live version can be found [here](https://tiagoma90.github.io/time/)
 Testing has been performed for its Performance, Accessibility, Best Practices and SEO.
 - With overall reviews for desktops & mobiles on 99%, under Chromes icognito mode.
 
-<img src="./images/lighthouse.png" alt="Lighthouse">
+<img src="assets/screenshots/lighthouse.png" alt="Lighthouse">
 
 # Responsiveness 
 The webpage for this game was tested for various devices, making use of both DevTools "Toggle Device Toolbar (Ctrl + Shift + M") and Bytes.
